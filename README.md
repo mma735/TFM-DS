@@ -59,10 +59,13 @@ AI4EOSC is a platform designed to harness artificial intelligence (AI), deep lea
 # Other versions:
 ## Version 1:
 ###  Files:
-initialTest_architecture_privacyPriority.ipynb
-initialTest_architecture_learningPriority.ipynb
-initialTest_GossipLearning_fixed.ipynb
-""
+-  initialTest_architecture_privacyPriority.ipynb
+-  initialTest_architecture_learningPriority.ipynb
+-  initialTest_GossipLearning_fixed.ipynb
+-  initialTest_GossipLearning_random.ipynb
+-  initialTest_RingAllReduce.ipynb
+-  initialTest_FL_SMA.ipynb
+-  initialTest_FL_WMA.ipynb
 ###  Release notes:
 -  Initial search of optimal ANN architecture.
 -  The optimal architecture was found by cross-validation and classification metrics on test subset. Two variants:
@@ -78,7 +81,11 @@ initialTest_GossipLearning_fixed.ipynb
 ## Version 2:
 ###  Files:
 -  Test_customized_1_v2.ipynb
-""
+-  Test_RAR_v2.ipynb
+-  results_test_RAR_v2.pkl
+-  Test_GL_fixed_v2.ipynb
+-  Test_GL_random_v2.ipynb
+
 ###  Release notes:
 -  Problem reduced to 4 artificial clients, waiting an improve of the performance and the behaviour of the metrics. 
 -  Code improved to accept complex distributed architectures where a client receives more than one model weights of different clients.
@@ -89,7 +96,15 @@ initialTest_GossipLearning_fixed.ipynb
 ## Version 3:
 ### Files:
 -  Test_RAR_v3_validation.ipynb
-""
+-  Test_RAR_v3_noValidation.ipynb
+-  Test_customized_1_v3_noValidation.ipynb
+-  Test_customized_1_v3_validation.ipynb
+-  Test_GL_fixed_v3_noValidation.ipynb
+-  Test_GL_fixed_v3_validation.ipynb
+-  Test_GL_random_v3_noValidation.ipynb
+-  Test_GL_random_v3_validation.ipynb
+-  results_test_RAR_v3_validation.pkl
+-  results_test_RAR_v3_noValidation.pkl
 ### Release notes:
 -  Now each architecture have a version with validation and without validation. Validation it is not necessary because cross-validation with all the medical data was carried out when determining the optimal ANN architecture.
 -  Corrected lack of data scaling, causing a great improve in metrics values.
@@ -100,7 +115,21 @@ initialTest_GossipLearning_fixed.ipynb
 ## Version 4:
 ### Files:
 -  Test_RAR_v4_validation.ipynb
-""
+-  Test_RAR_v4_noValidation.ipynb
+-  Test_customized_1_v4_noValidation.ipynb
+-  Test_customized_1_v4_validation.ipynb
+-  Test_GL_fixed_v4_noValidation.ipynb
+-  Test_GL_fixed_v4_validation.ipynb
+-  Test_GL_random_v4_noValidation.ipynb
+-  Test_GL_random_v4_validation.ipynb
+-  results_Test_customized_1_v4_validation.pkl
+-  results_Test_customized_1_v4_noValidation.pkl
+-  results_Test_GL_fixed_v4_validation.pkl
+-  results_Test_GL_fixed_v4_noValidation.pkl
+-  results_Test_GL_random_v4_validation.pkl
+-  results_Test_GL_random_v4_noValidation.pkl
+-  results_Test_RAR_v4_validation.pkl
+-  results_Test_RAR_v4_noValidation.pkl
 ### Release notes:
 -  Adjust of limits of all the plots to facilitate comparison of results.
 -  Calculation of weight_divergence for all the client-to-client architectures at round 50 to facilitate comparison of results.
