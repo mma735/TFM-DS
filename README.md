@@ -1,4 +1,4 @@
-#  Release notes (final version 4.1):
+#  Release notes (actual version 4.1):
 -  Simplification of the problem: Examining the evolution of distributed approaches in a context where validation of each one is not necessary, as cross-validation with all medical data was performed when determining the optimal artificial neural network (ANN) architecture.
 
 # General description of the project:
@@ -10,7 +10,7 @@ Raw initial data: heart.csv <br>
 Data Preparation and Exploratory Data Analysis (EDA): dataset5_heart_DP&EDA.ipynb <br>
 Output of the last notebook: heart_ConditionalMeanImputation.csv <br>
 
-# Current repository structure. AI issue (final version 4.1):
+# Current repository structure. AI issue (actual version 4.1):
 ## Notebook to find the optimal ANN architecture:
 OptimalArchitecture_learningPriority_v4.1.ipynb <br>
 ## Notebooks to develop the distributed learning architectures:
@@ -19,12 +19,12 @@ Ring All_Reduce: Test_RAR_v4.1_noValidation.ipynb <br>
 Conditional Gossip Learning: Test_GL_fixed_v4.1_noValidation.ipynb <br>
 Random Gossip Learning: Test_GL_random_v4.1_noValidation.ipynb <br>
 Customized architecture: Test_customized_1_v4.1_noValidation.ipynb <br>
-## Output of the architectures in pickle format (test metrics and model weights, same as in version 4):
-results_Test_FL_v4_noValidation.pkl <br>
-results_Test_RAR_v4_noValidation.pkl <br>
-results_Test_GL_fixed_v4_noValidation.pkl <br>
-results_Test_GL_random_v4_noValidation.pkl <br>
-results_Test_customized_1_v4_noValidation.pkl <br>
+## Output of the architectures in pickle format (test metrics and model weights):
+results_Test_FL_v4_noValidation.pkl (same as in version 4) <br>
+results_Test_RAR_v4.1_noValidation.pkl <br>
+results_Test_GL_fixed_v4.1_noValidation.pkl <br>
+results_Test_GL_random_v4.1_noValidation.pkl <br>
+results_Test_customized_1_v4.1_noValidation.pkl <br>
 
 ## Analysis of the results:
 ###  At the final of notebooks of the distributed approaches:
