@@ -1,7 +1,7 @@
 #  Release notes (actual version 4.1):
 -  Simplification of the problem: Examining the evolution of distributed approaches in a context where validation of each one is not necessary, as cross-validation with all medical data was performed when determining the optimal artificial neural network (ANN) architecture.
 
-# General description of the project:
+# Brief description of the project:
 
 This work involves implementing a use case, the Heart Disease dataset, comparing various data decentralization architectures, such as Federated Learning, Ring All-Reduce, and Gossip Learning.
 
