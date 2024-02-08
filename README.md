@@ -3,7 +3,7 @@
 
 # Brief description of the project:
 
-This work involves implementing a use case, the Heart Disease dataset, comparing various data decentralization architectures, such as Federated Learning, Ring All-Reduce, and Gossip Learning.
+This work involves implementing a use case, the [Heart Disease dataset](https://www.kaggle.com/fedesoriano/heart-failure-prediction), comparing various data decentralization architectures, such as Federated Learning, Ring All-Reduce, and Gossip Learning.
 
 # Related previous work. Data preparation and analysis.
 Raw initial data: heart.csv <br>
