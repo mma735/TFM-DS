@@ -1,4 +1,4 @@
-#  Release notes (actual version 4.1):
+#  Release notes:
 -  Simplification of the problem: Examining the evolution of distributed approaches in a context where validation of each one is not necessary, as cross-validation with all medical data was performed when determining the optimal artificial neural network (ANN) architecture.
 
 # Brief description of the project:
