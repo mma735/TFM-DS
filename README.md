@@ -10,7 +10,7 @@ Raw initial data: heart.csv <br>
 Data Preparation and Exploratory Data Analysis (EDA): dataset5_heart_DP&EDA.ipynb <br>
 Output of the last notebook: heart_ConditionalMeanImputation.csv <br>
 
-# Current repository structure. AI issue (actual version 4.1):
+# Current repository structure. AI issue:
 ## Notebook to find the optimal ANN architecture:
 OptimalArchitecture_learningPriority_v4.1.ipynb <br>
 ## Notebooks to develop the distributed learning architectures:
