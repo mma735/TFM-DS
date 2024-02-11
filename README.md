@@ -56,7 +56,7 @@ Note: Specific imported modules are shown at the beggining of each notebook.
 
 AI4EOSC is a platform designed to harness artificial intelligence (AI), deep learning (DL), and machine learning (ML) technologies within the European Open Science Cloud (EOSC) framework. The platform facilitates the utilization of advanced AI techniques for research and innovation, offering users tools and services to effectively work with large distributed datasets within the EOSC framework. More info: https://ai4eosc.eu/
 
-# Other versions:
+# Other versions (The different versions refers to the ones developed locally):
 ## Version 1:
 ###  Files:
 -  initialTest_architecture_privacyPriority.ipynb
