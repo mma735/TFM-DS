@@ -35,6 +35,8 @@ results_Test_customized_1_v4.1_noValidation.pkl <br>
 -  Average weight divergence <br>
 analysisResults_v4.1_noValidation.ipynb <br>
 
+Importante note for GitHub users: Files of the type: "results_Test_*_v4.1_noValidation.pkl" are VERY HEAVY to be uploaded to GitHub. Therefore, the notebook "analysisResults_v4.1_noValidation.ipynb" needs to be compiled after the notebooks of the distributed architectures to obtain again these results.
+
 # Requirements
 ## Dependencies
 -  Python version: 3.8.10
