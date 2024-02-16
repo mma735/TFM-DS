@@ -1,5 +1,7 @@
 #  Release notes:
 -  Simplification of the problem: Examining the evolution of distributed approaches in a context where validation of each one is not necessary, as cross-validation with all medical data was performed when determining the optimal artificial neural network (ANN) architecture.
+-  Publication at Zenodo: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10671543.svg)](https://doi.org/10.5281/zenodo.10671543)
+
 
 # Brief description of the project:
 
