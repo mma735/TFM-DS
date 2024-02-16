@@ -48,7 +48,7 @@ Note: Specific imported modules are shown at the beggining of each notebook.
 
 ## Hardware Specifications
 
-- **GPU:** NVIDIA Tesla T4
+- **GPU:** NVIDIA Tesla V100
 - **RAM:** 16 GB
 - **Platform:** AI4EOSC*
 
